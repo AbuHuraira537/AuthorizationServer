@@ -5,4 +5,10 @@
     <RootNamespace>Authorization_Server</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="3.1.0" />
+    <PackageReference Include="IdentityServer4.AspNetIdentity" Version="3.1.0" />
+    <PackageReference Include="IdentityServer4.EntityFramework" Version="3.1.0" />
+  </ItemGroup>
+
 </Project>
